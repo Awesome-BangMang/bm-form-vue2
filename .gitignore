@@ -9,6 +9,7 @@ lerna-debug.log*
 
 node_modules
 dist
+bm-form-vue2
 dist-ssr
 *.local
 

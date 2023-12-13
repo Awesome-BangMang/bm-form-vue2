@@ -1,7 +1,7 @@
 {
   "name": "bm-form-vue2",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,5 +23,10 @@
   "devDependencies": {
     "@vitejs/plugin-vue2-jsx": "^1.1.1",
     "vite": "^5.0.0"
-  }
+  },
+  "description": "邦芒人力-人事宝科技研发一部 vue2项目封装表单",
+  "main": "bm-form-vue2.js",
+  "keywords": ["bm-form-vue2","bangmang"],
+  "author": "",
+  "license": "ISC"
 }

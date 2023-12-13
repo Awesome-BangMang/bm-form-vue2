@@ -15,4 +15,13 @@ export default defineConfig({
     },
     extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue'],
   },
+  build: {
+    target: 'esnext',
+    outDir: 'bm-form-vue2',
+    minify: true,
+    lib: {
+      entry: 'src/index.js',
+      name: 'bm-form-vue2',
+    },
+  }
 })
