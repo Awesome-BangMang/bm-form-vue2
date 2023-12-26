@@ -1,7 +1,6 @@
 {
   "name": "bm-form-vue2",
   "private": false,
-  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +9,7 @@
   },
   "dependencies": {
     "@vitejs/plugin-vue2": "^2.3.1",
-    "bm-form-vue": "0.0.4",
+    "bm-form-vue2": "^1.0.0",
     "dayjs": "^1.11.10",
     "element-ui": "^2.15.14",
     "lodash-es": "^4.17.21",
@@ -22,7 +21,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue2-jsx": "^1.1.1",
-    "vite": "^5.0.0"
+    "vite": "^4.0.0"
   },
   "description": "邦芒人力-人事宝科技研发一部 vue2项目封装表单",
   "keywords": [

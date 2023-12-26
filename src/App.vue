@@ -1,6 +1,6 @@
 <script setup="">
 // import {BmForm,useForm} from '/node_modules/bm-form-vue/bm-form-vue2.js'
-import {BmForm,useForm} from 'bm-form-vue'
+import {BmForm,useForm} from 'bm-form-vue2'
 
 
 const [register, {validate}] = useForm({
