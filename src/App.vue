@@ -1,6 +1,7 @@
 <script setup="">
-import BasicForm from "./src/BasicForm.vue";
-import {useForm} from "./hooks/useForm.js";
+// import {BmForm,useForm} from '/node_modules/bm-form-vue/bm-form-vue2.js'
+import {BmForm,useForm} from 'bm-form-vue'
+
 
 const [register, {validate}] = useForm({
   labelWidth: "120",
@@ -64,5 +65,7 @@ const [register, {validate}] = useForm({
 </script>
 
 <template>
-  <BasicForm @register="register" class="border"/>
+ <div>
+   <BmForm @register="register" class="border"/>
+ </div>
 </template>

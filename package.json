@@ -1,7 +1,7 @@
 {
   "name": "bm-form-vue2",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@formkit/auto-animate": "^0.8.1",
     "@vitejs/plugin-vue2": "^2.3.1",
+    "bm-form-vue": "0.0.4",
     "dayjs": "^1.11.10",
     "element-ui": "^2.15.14",
     "lodash-es": "^4.17.21",
@@ -25,8 +25,9 @@
     "vite": "^5.0.0"
   },
   "description": "邦芒人力-人事宝科技研发一部 vue2项目封装表单",
-  "main": "bm-form-vue2.js",
-  "keywords": ["bm-form-vue2","bangmang"],
+  "keywords": [
+    "bangmang"
+  ],
   "author": "",
   "license": "ISC"
 }

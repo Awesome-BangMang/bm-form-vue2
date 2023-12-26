@@ -1,5 +1,5 @@
 <script setup="">
-import {computed, getCurrentInstance, nextTick, onMounted, ref, unref, useAttrs, provide, inject, watch} from 'vue'
+import {computed, getCurrentInstance, nextTick, onMounted, ref, unref, useAttrs, inject, watch} from 'vue'
 import {BasicFormProps} from '../props/BasicFormProps.js'
 import {useValidate} from '../hooks/useValidate.js'
 import {cloneDeep, isFunction} from 'lodash-es'
@@ -16,7 +16,6 @@ const props = defineProps(BasicFormProps)
 const emits = defineEmits(['register', 'input'])
 const attrs = useAttrs()
 const formRef = ref()
-
 
 const {getProps, getRowProps, setProps} = useFormProps(props)
 const {formModel, setDefaultValue, setFieldsValue, getFieldsValue} = useFormValue(getProps)

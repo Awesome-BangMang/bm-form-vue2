@@ -23,5 +23,15 @@ export default defineConfig({
       entry: 'src/index.js',
       name: 'bm-form-vue2',
     },
+    rollupOptions: {
+      // 确保外部化处理那些你不想打包进库的依赖
+      external: ['vue'],
+      output: {
+        // 为全局变量提供一个名称，在浏览器中通过 window 访问
+        globals: {
+          vue: 'Vue'
+        }
+      }
+    }
   }
 })
